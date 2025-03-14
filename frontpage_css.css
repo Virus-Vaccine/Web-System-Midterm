@@ -1,0 +1,34 @@
+body {
+	background-color: #3a3a3a;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24pt;
+	color: White;
+}
+
+div.bar {
+	position: sticky;
+	width:100%; height: 100px;
+	top: 0px;
+	background-color: #444444;
+}
+
+div.Act {
+	position: absolute;
+	width:100px; height: 100px;
+	padding: 10px;
+	margin: 10px;
+	top: 0px; right: 80px:
+	transition: 1s;
+	text-align: Center;
+}
+
+div.Act:hover {
+	width:130px; height: 150px;
+	text-shadow: 0px 0px 20px #b9b9b9, 0px 0px 20px Black inset;
+	background-color: #444444;
+}
+
+a {
+	color: White;
+	text-decoration: none;
+}
