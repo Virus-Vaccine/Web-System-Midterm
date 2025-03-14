@@ -1,0 +1,2054 @@
+body {
+	background-color: #B9B9B9;
+}
+
+h2 {
+	text-align: center;
+}
+
+p.h {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	text-decoration-line: underline;
+	text-weight: bold;
+	text-align: Center;
+}
+
+div {
+	margin: 10px;
+}
+
+div.Corners {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 600px;
+	position:absolute;
+	top: 20px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+div.RoundedCorner {
+	position:absolute;
+	top: 30px; left: 0px;
+}
+
+div.rounded1 {
+	border-radius: 25px;
+	background: #73AD21;
+	padding: 20px;
+	width: 100px;
+	height: 80px;
+	text-align: Center;
+	position: Relative;
+}
+
+div.rounded2 {
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 100px;
+	height: 60px;
+	text-align: Center;
+	position: Relative;
+}
+
+div.rounded3 {
+	border-radius: 25px;
+	background: url(img/1.png);
+	background-position: left top;
+	background-repeat: repeat;
+	padding: 20px;
+	width: 100px;
+	height: 80px;
+	color: white;
+	text-align: Center;
+	position: Relative;
+}
+
+div.BorderSpecifyCorner {
+	position: absolute;
+	top: 30px; left: 200px;
+}
+
+div.FourCorner {
+	border: 2px solid #73AD21;
+	border-radius: 15px 50px 30px 5px;
+	background: #73AD21;
+	padding: 20px;
+	width: 100px;
+	height: 80px;
+	text-align: Center;
+	position: Relative;
+}
+
+div.ThreeCorner {
+	border: 2px solid #73AD21;
+	border-radius: 15px 50px 30px;
+	background: #73AD21;
+	padding: 20px;
+	width: 100px;
+	height: 80px;
+	text-align: Center;
+	position: Relative;
+}
+
+div.TwoCorner {
+	border: 2px solid #73AD21;
+	border-radius: 15px 50px;
+	background: #73AD21;
+	padding: 20px;
+	width: 100px;
+	height: 80px;
+	text-align: Center;
+	position: Relative;
+}
+
+div.OneCorner {
+	border: 2px solid #73AD21;
+	border-radius: 15px;
+	background: #73AD21;
+	padding: 20px;
+	width: 100px;
+	height: 80px;
+	text-align: Center;
+	position: Relative;
+}
+
+div.EllipticalCorner {
+	position:absolute;
+	top: 30px; right: 0px;
+}
+
+div.EllipticalOne {
+	border-radius: 50px / 15px;
+	background: #73AD21;
+	padding: 20px;
+	width: 100px;
+	height: 80px;
+	text-align: Center;
+	position: Relative;
+}
+
+div.EllipticalTwo {
+	border-radius: 15px / 50px;
+	background: #73AD21;
+	padding: 20px;
+	width: 100px;
+	height: 80px;
+	text-align: Center;
+	position: Relative;
+}
+
+div.EllipticalThree {
+	border-radius: 50%;
+	background: #73AD21;
+	padding: 20px;
+	width: 100px;
+	height: 80px;
+	text-align: Center;
+	position: Relative;
+}
+
+div.BorderImages {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 400px;
+	position:absolute;
+	top: 670px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+div.ImageBorderCorner {
+	position:absolute;
+	top: 30px; left: 110px;
+}
+
+div.ImgBorderRound {
+	border: 10px solid transparent;
+	border-radius: 25px;
+	padding: 20px;
+	width: 100px;
+	height: 40px;
+	border-image: url(img/border.png) 30 round;
+	text-align: Center;
+	position: Relative;
+}
+
+div.ImgBorderStretch {
+	border: 10px solid transparent;
+	border-radius: 25px;
+	padding: 20px;
+	width: 100px;
+	height: 40px;
+	border-image: url(img/border.png) 30 stretch;
+	text-align: Center;
+	position: Relative;
+}
+
+div.ImageBorderDifferentSlice {
+	position:absolute;
+	top: 30px; right: 110px;
+}
+
+div.ImageBorderSliceEnds {
+	border: 10px solid transparent;
+	border-radius: 25px;
+	padding: 20px;
+	width: 100px;
+	height: 40px;
+	border-image: url(img/border.png) 50 round;
+	text-align: Center;
+	position: Relative;
+}
+
+div.ImageBorderSliceHalf {
+	border: 10px solid transparent;
+	border-radius: 25px;
+	padding: 20px;
+	width: 100px;
+	height: 40px;
+	border-image: url(img/border.png) 20% round;
+	text-align: Center;
+	position: Relative;
+}
+
+div.ImageBorderSliceFull {
+	border: 10px solid transparent;
+	border-radius: 25px;
+	padding: 20px;
+	width: 100px;
+	height: 40px;
+	border-image: url(img/border.png) 30% round;
+	text-align: Center;
+	position: Relative;
+}
+
+div.Backgrounds {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%; height: 3200px;
+	position:absolute;
+	top: 1120px; left: 300px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+div.MultipleBackground {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	background-image: url(img/1.jpg), url(img/grass.png);
+	background-position: right bottom, left top;
+	background-repeat: no-repeat, repeat;
+	font-size: 30pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.MultipleBackground2 {
+	background: url(img/1.jpg) right bottom no-repeat, url(img/grass.png) left top repeat;
+	background-size: 300px, 100px;
+	font-size: 30pt;
+	text-weight: Bold;
+}
+
+div.SingleBackground {
+	background: url(img/b.jpg) right bottom no-repeat;
+	background-size: 300px 350px;
+	font-size: 30pt;
+	text-weight: Bold;
+}
+
+div.ContainBackground {
+	background: url(img/b.jpg) right bottom;
+	background-size: contain;
+	color: Red;
+	font-size: 30pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.CoverBackground {
+	background: url(img/b.jpg) right bottom;
+	background-size: cover;
+	color: Red;
+	font-size: 30pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.FullSizeBackground {
+	background: url(img/1.jpg) no-repeat Center fixed;
+	background-size: cover;
+	font-size: 30pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.HeroImageBackground {
+	background: url(img/a.jpg) no-repeat Center;
+	background-size: cover;
+	height: 400px;
+	font-size: 30pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.PropertyBackgroundOrigin {
+	border: 10px solid black;
+	padding: 35px;
+	background: url(img/grass.png);
+	background-repeat: repeat;
+	background-origin: padding-box;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.Colors {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 650px;
+	position:absolute;
+	top: 4370px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+div.RGBAColors {
+	position: absolute;
+	top: 30px; left: 0px;
+}
+
+div.RGBAColors1 {
+	border-radius: 25px;
+	background-color: rgba(255, 0, 0, 0.3);
+	padding: 20px;
+	width: 110%; height: 50px;
+	font-size: 15pt;
+	text-weight: bold;
+	text-align: Center;
+	position: Relative;
+}
+
+div.RGBAColors2 {
+	border-radius: 25px;
+	background-color: rgba(0, 255, 0, 0.6);
+	padding: 20px;
+	width: 110%; height: 50px;
+	font-size: 15pt;
+	text-weight: bold;
+	text-align: Center;
+	position: Relative;
+}
+
+div.RGBAColors3 {
+	border-radius: 25px;
+	background-color: rgba(0, 0, 255, 0.9);
+	padding: 20px;
+	width: 110%; height: 50px;
+	color: White;
+	font-size: 15pt;
+	text-weight: bold;
+	text-align: Center;
+	position: Relative;
+}
+
+div.HSLColors {
+	position: absolute;
+	top: 30px; right: 74px;
+}
+
+div.HSLColors1 {
+	border-radius: 25px;
+	background-color: hsl(0, 40%, 65%);
+	padding: 20px;
+	width: 110%; height: 50px;
+	font-size: 15pt;
+	text-weight: bold;
+	text-align: Center;
+	position: Relative;
+}
+
+div.HSLColors2 {
+	border-radius: 25px;
+	background-color: hsl(120, 70%, 60%);
+	padding: 20px;
+	width: 110%; height: 50px;
+	font-size: 15pt;
+	text-weight: bold;
+	text-align: Center;
+	position: Relative;
+}
+
+div.HSLColors3 {
+	border-radius: 25px;
+	background-color: hsl(240, 100%, 48%);
+	padding: 20px;
+	width: 110%; height: 50px;
+	color: White;
+	font-size: 15pt;
+	text-weight: bold;
+	text-align: Center;
+	position: Relative;
+}
+
+div.HSLAColors {
+	position: absolute;
+	top: 330px; left: 0px;
+}
+
+div.HSLAColors1 {
+	border-radius: 25px;
+	background-color: hsla(0, 40%, 65%, 0.9);
+	padding: 20px;
+	width: 80%; height: 50px;
+	font-size: 15pt;
+	text-weight: bold;
+	text-align: Center;
+	position: Relative;
+}
+
+div.HSLAColors2 {
+	border-radius: 25px;
+	background-color: hsla(120, 70%, 60%, 0.6);
+	padding: 20px;
+	width: 80%; height: 50px;
+	font-size: 15pt;
+	text-weight: bold;
+	text-align: Center;
+	position: Relative;
+}
+
+div.HSLAColors3 {
+	border-radius: 25px;
+	background-color: hsla(240, 100%, 48%, 0.3);
+	padding: 20px;
+	width: 80%; height: 50px;
+	font-size: 15pt;
+	text-weight: bold;
+	text-align: Center;
+	position: Relative;
+}
+
+div.OpacityColors {
+	position: absolute;
+	top: 330px; right: 50px;
+}
+
+div.OpacityColors1 {
+	border-radius: 25px;
+	background-color: rgba(255, 0, 0);opacity:0.9;
+	padding: 20px;
+	width: 100%; height: 50px;
+	font-size: 15pt;
+	text-weight: bold;
+	text-align: Center;
+	position: Relative;
+}
+
+div.OpacityColors2 {
+	border-radius: 25px;
+	background-color: rgba(0, 255, 0);opacity:0.6;
+	padding: 20px;
+	width: 100%; height: 50px;
+	font-size: 15pt;
+	text-weight: bold;
+	text-align: Center;
+	position: Relative;
+}
+
+div.OpacityColors3 {
+	border-radius: 25px;
+	background-color: rgba(0, 0, 255);opacity:0.3;
+	padding: 20px;
+	width: 100%; height: 50px;
+	color: White;
+	font-size: 15pt;
+	text-weight: bold;
+	text-align: Center;
+	position: Relative;
+}
+
+div.ColorKeywords {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 310px;
+	position:absolute;
+	top: 5070px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+div.KeywordBackground {
+	background-image: url(img/grass.png);
+	background-repeat: repeat;
+	border: 10px solid Blue;
+}
+
+div.TransparentKeyword {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	background-color: transparent;
+	font-size: 30pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.CurrentColorKeyword {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	color: White;
+	border: 10px solid currentcolor;
+	font-size: 30pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.InheritKeyword {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border: inherit;
+	font-size: 30pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.Gradients {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 480px;
+	position:absolute;
+	top: 5430px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+div.LinearGradient {
+	position:absolute;
+	top: 30px; left: 0px;
+}
+
+div.TopBottomGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: linear-gradient(Green, Orange);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.LeftRightGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: linear-gradient(to right, Blue, Red);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.TopLeftBottomRightGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: linear-gradient(to bottom right, Violet, Brown);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.AngularGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: linear-gradient(45deg, Green, Orange);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.MultiColorGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: linear-gradient(Purple, Pink, Maroon);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.RainbowGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: linear-gradient(to right, red, Orange,Yellow, Green, Blue, Indigo, Violet);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.TransparencyGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.RepeatingGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: repeating-linear-gradient(to right, White, Red 10%, Black 20%);
+	Color: Blue;
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.RadialGradient {
+	position:absolute;
+	top: 30px; left: 200px;
+}
+
+div.EvenGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: radial-gradient(Red, Yellow, Green);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.DifferentGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: radial-gradient(Blue 5%, Cyan 15%, Green 60%);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.SetShapeGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: radial-gradient(Circle, Pink, Orange, red);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.RepeatingRadialGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: repeating-radial-gradient(Red, Yellow 10%, Green 15%);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.ConicGradient {
+	position:absolute;
+	top: 30px; right: 0px;
+}
+
+div.ThreeGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: conic-gradient(Pink, Orange, Red);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.ThreeGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: conic-gradient(Pink, Orange, Red);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.FiveGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: conic-gradient(Violet, Blue, Purple, Indigo, Cyan);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.ThreeDegreeGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: conic-gradient(Pink 75deg, Orange 90deg, Red 180deg);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.PieGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: conic-gradient(Violet, Blue, Purple, Indigo, Cyan);
+	border-radius: 50%;
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.SpecifiedGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: conic-gradient(from 90deg, Violet, Blue, Purple);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.SpecifiedCenterGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: conic-gradient(at 40% 70%, Violet, Blue, Purple);
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.RepeatingConicGradient {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	background-image: repeating-conic-gradient(Pink 10%, Red 20%);
+	border-radius: 50%;
+	font-size: 15pt;
+	text-weight: Bold;
+	text-align: Center;
+}
+
+div.Shadows {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 610px;
+	position:absolute;
+	top: 5960px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+div.ShadowEffects {
+	position:absolute;
+	top: 30px; left: 70px;
+}
+
+div.TextShadow {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	text-shadow: 2px 2px;
+}
+
+div.ColoredTextShadow {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	text-shadow: 2px 2px Yellow;
+}
+
+div.BlurredTextShadow {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	text-shadow: 2px 2px 6px Yellow;
+}
+
+div.MultiTextShadow {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	text-shadow: 0 0 3px #00FF00, 0 0 5px #0000FF;
+}
+
+div.BorderTextShadow {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	color: Green;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	text-shadow: -1px 0 Black, 0 1px Black, 1px 0 Black, 0 -1px Black;
+}
+
+div.BoxShadow {
+	position:absolute;
+	top: 30px; right: 0px;
+}
+
+div.NormalBoxShadow {
+	border: 2px solid #FFFFFF;
+	border-radius: 15px 50px;
+	padding: 20px;
+	width: 230px;
+	height: 40px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	position: Relative;
+	box-shadow: 5px 5px;
+}
+
+div.ColoredBoxShadow {
+	border: 2px solid #FFFFFF;
+	border-radius: 15px 50px;
+	padding: 20px;
+	width: 230px;
+	height: 40px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	position: Relative;
+	box-shadow: 5px 0px Blue;
+}
+
+div.BlurredBoxShadow {
+	border: 2px solid #FFFFFF;
+	border-radius: 15px 50px;
+	padding: 20px;
+	width: 230px;
+	height: 40px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	position: Relative;
+	box-shadow: -5px 0px 5px Blue;
+}
+
+div.SpreadBoxShadow {
+	border: 2px solid #FFFFFF;
+	border-radius: 15px 50px;
+	padding: 20px;
+	width: 230px;
+	height: 40px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	position: Relative;
+	box-shadow: 0px 0px 5px 4px Blue;
+}
+
+div.InsetBoxShadow {
+	border: 2px solid #FFFFFF;
+	border-radius: 15px 50px;
+	padding: 20px;
+	width: 230px;
+	height: 40px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	position: Relative;
+	box-shadow: 0px 0px 20px Blue inset;
+}
+
+div.MultiBoxShadow {
+	border: 2px solid #FFFFFF;
+	border-radius: 15px 50px;
+	padding: 20px;
+	width: 230px;
+	height: 40px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	position: Relative;
+	box-shadow: 0px 0px 20px Blue inset, 0px 0px 20px Red;
+}
+
+div.TextEffects {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 1100px;
+	position:absolute;
+	top: 6620px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+div.TextOverflow {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	white-space: nowrap;
+	border: 1px solid;
+	overflow: hidden;
+	text-overflow: clip;
+}
+
+div.TextOverflow2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	white-space: nowrap;
+	border: 1px solid;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+div.TextWrap {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	border: 1px solid;
+	word-wrap: break-word;
+}
+
+div.TextBreak {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	border: 1px solid;
+	word-break: keep-all;
+}
+
+div.TextBreak2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	border: 1px solid;
+	word-break: break-all;
+}
+
+div.TextWriting {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	writing-mode: horizontal-tb;
+}
+
+div.TextWriting2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 0px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	writing-mode: vertical-rl;
+}
+
+div.WebFonts {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 150px;
+	position:absolute;
+	top: 7770px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+@font-face {
+  font-family: webFont;
+  src: url(sansation_light.woff);
+}
+
+div.WebFontFace {
+	margin-left: auto;
+	margin-right: auto;
+	width: 175px;
+	font-size: 20pt;
+	font-family: webFont;
+	text-align: Center;
+}
+
+div.TransformTwoD {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 1250px;
+	position:absolute;
+	top: 7970px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+div.Translate {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+	transform: translate(0px, -10px);
+}
+
+div.Rotate {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+	transform: rotate(10deg);
+}
+
+div.Scale {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+	transform: scale(0.6, 0.6);
+}
+
+div.ScaleX {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+	transform: scaleX(0.6);
+}
+
+div.ScaleY {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+	transform: scaleY(0.6);
+}
+
+div.Skew {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+	transform: skew(10deg, 5deg);
+}
+
+div.SkewX {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+	transform: skewX(50deg);
+}
+
+div.SkewY {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+	transform: skewY(30deg);
+}
+
+div.Matrix {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+	transform: matrix(0.3, -0.3, 5, 0.3, 0, 0);
+}
+
+div.TransformThreeD {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 500px;
+	position:absolute;
+	top: 9270px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+div.RotateX {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+	
+}
+
+div.RotateX:hover {
+	transform: rotateX(45deg);
+}
+
+div.RotateY {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+}
+
+div.RotateY:hover {
+	transform: rotateY(30deg);
+}
+
+div.RotateZ {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+	
+}
+
+div.RotateZ:hover {
+	transform: rotateZ(10deg);
+}
+
+div.Transition {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 670px;
+	position:absolute;
+	top: 9820px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+div.BasicTransition {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+	transition: width 2s;
+}
+
+div.BasicTransition:hover {
+	width: 300px;
+}
+
+div.MultiPropertyTransition {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 120px;
+	font-size: 20pt;
+	text-align: Center;
+	transition: width 4s, height 3s;
+}
+
+div.MultiPropertyTransition:hover {
+	width: 400px; height: 30px;
+}
+
+div.TransitionDelay {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 80px;
+	font-size: 20pt;
+	text-align: Center;
+	transition: width 4s, height 3s;
+	transition-delay: 1s;
+}
+
+div.TransitionDelay:hover {
+	width: 400px; height: 30px;
+}
+
+div.TransitionTransform {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 20%;
+	height: 120px;
+	font-size: 20pt;
+	text-align: Center;
+	transition: width 4s, height 3s, transform 1s;
+}
+
+div.TransitionTransform:hover {
+	width: 400px; height: 30px; transform: matrix(1, -0.3, 10, 1, 0, 0);
+}
+
+div.Animation {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 670px;
+	position:absolute;
+	top: 10540px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+@keyframes example {
+  from {background-color: #B9B9B9;}
+  to {background-color: White;}
+}
+
+div.AnimationExample {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	background-color: #B9B9B9;
+	font-size: 20pt;
+	text-align: Center;
+}
+
+div.AnimationExample:hover {
+	animation-name: example; animation-duration: 4s;
+}
+
+@keyframes anim1 {
+	0%   {background-color: Red;}
+	25%  {background-color: Orange;}
+	50%  {background-color: Yellow;}
+	100% {background-color: Green;}
+}
+
+div.AnimationMultiDuration {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	background-color: Red;
+	font-size: 20pt;
+	text-align: Center;
+}
+
+div.AnimationMultiDuration:hover {
+	animation-name: anim1; animation-duration: 5s;
+}
+
+div.AnimationDelay {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	background-color: Red;
+	font-size: 20pt;
+	text-align: Center;
+}
+
+div.AnimationDelay:hover {
+	animation-name: anim1; animation-duration: 5s; animation-delay: 1s;
+}
+
+div.AnimationReverse {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	background-color: Red;
+	font-size: 20pt;
+	text-align: Center;
+}
+
+div.AnimationReverse:hover {
+	animation-name: anim1; animation-duration: 5s; animation-direction: reverse;
+}
+
+div.AnimationAlternate {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	background-color: Red;
+	font-size: 20pt;
+	text-align: Center;
+}
+
+div.AnimationAlternate:hover {
+	animation-name: anim1; animation-duration: 5s; animation-direction: alternate;
+}
+
+div.AnimationAlternateReverse {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	background-color: Red;
+	font-size: 20pt;
+	text-align: Center;
+}
+
+div.AnimationAlternateReverse:hover {
+	animation-name: anim1; animation-duration: 5s; animation-direction: alternate-reverse;
+}
+
+div.AnimationFill {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	background-color: Red;
+	font-size: 20pt;
+	text-align: Center;
+}
+
+div.AnimationFill:hover {
+	animation-name: anim1; animation-duration: 5s; animation-fill-mode: both;
+}
+
+div.ToolTip {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 300px;
+	position:absolute;
+	top: 11260px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+div.ToolTipSpace {
+	position:absolute;
+	top: 30px; left: 220px;
+}
+
+div.ToolTipText {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	display: inline-block;
+	position: relative;
+}
+
+.ToolTipText .tooltiptext {
+	visibility: hidden;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	z-index: 1;
+}
+
+.ToolTipText:hover .tooltiptext {
+	visibility: visible;
+}
+
+.ToolTipText2 {
+	width: 100px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	display: inline-block;
+	position: relative;
+}
+
+.ToolTipText2 .tooltiptext2 {
+	visibility: hidden;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	z-index: 1;
+	position:absolute;
+	top: -5px;
+	right: 100px;
+}
+
+.ToolTipText2:hover .tooltiptext2 {
+  visibility: visible;
+}
+
+.ToolTipText3 {
+	width: 100px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	display: inline-block;
+	position: relative;
+}
+
+.ToolTipText3 .tooltiptext3 {
+	visibility: hidden;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	z-index: 1;
+	position:absolute;
+	top: -5px;
+	left: 100px;
+}
+
+.ToolTipText3:hover .tooltiptext3 {
+  visibility: visible;
+}
+
+.ToolTipText4 {
+	width: 100px;
+	font-size: 20pt;
+	text-weight: Bold;
+	text-align: Center;
+	display: inline-block;
+	position: relative;
+}
+
+.ToolTipText4 .tooltiptext4 {
+	visibility: hidden;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	z-index: 1;
+	position:absolute;
+	width: 120px;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px; 
+}
+
+.ToolTipText4:hover .tooltiptext4 {
+  visibility: visible;
+}
+
+div.ImageStyling {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 2500px;
+	position:absolute;
+	top: 11610px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+img.rounded {
+	border-radius: 20px;
+	width: 200px; height: 200px;
+	position:absolute;
+	top: 50px; left: 50px;
+}
+
+img.circle {
+	border-radius: 50%;
+	width: 200px; height: 200px;
+	position:absolute;
+	top: 50px; right: 50px;
+}
+
+img.borded {
+	border: 3px solid #000000;
+	border-radius: 4px;
+	padding: 5px;
+	width: 200px; height: 200px;
+	position:absolute;
+	top: 300px; left: 175px;
+}
+
+img.borded:hover {
+	box-shadow: 0 0 10px 20px rgba(0, 140, 186, 0.5);
+}
+
+img.responsive {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+	position:absolute;
+	top: 550px;
+}
+
+img.transparentImage {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+	position:absolute;
+	top: 1150px;
+	opacity: 0.5;
+}
+
+img.flip {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+	position:absolute;
+	top: 1750px;
+}
+
+img.flip:hover {
+	transform: scaleY(-1);
+}
+
+div.ImageCentering {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 1150px;
+	position:absolute;
+	top: 14160px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+img.center {
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+div.flex {
+	display: flex;
+	justify-content: center;
+}
+
+img.flex {
+	width: 50%;
+}
+
+div.vertical {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+}
+
+img.vertical {
+	width: 50%;
+	height: 50%;
+}
+
+div.ImageFilters {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 1400px;
+	position:absolute;
+	top: 15360px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+img.blur {
+	filter: blur(6px);
+}
+
+img.brightness {
+	filter: brightness(30%);
+}
+
+img.contrast {
+	filter: contrast(200%);
+}
+
+img.dropShadow {
+	filter: drop-shadow(8px 8px 10px gray);
+}
+
+img.grayscale {
+	filter: grayscale(80%);
+}
+
+img.hueRotate {
+	filter: hue-rotate(150deg);
+}
+
+img.invert {
+	filter: invert(100%);
+}
+
+img.opacity {
+	filter: opacity(20%);
+}
+
+img.saturate {
+	filter: saturate(200%);
+}
+
+img.sepia {
+	filter: sepia(100%);
+}
+
+div.ImageShapes {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 1500px;
+	position:absolute;
+	top: 16810px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+img.shapeCircle {
+	clip-path: circle(50%);
+}
+
+img.shapeCircleHalf {
+	clip-path: circle(50% at right);
+}
+
+img.shapeCircleWrap {
+	float: left;
+	clip-path: circle(40%);
+	shape-outside: circle(45%);
+}
+
+img.shapeEllipse {
+	clip-path: ellipse(50% 35%);
+}
+
+img.shapeEllipseHalf {
+	clip-path: ellipse(50% 35% at right);
+}
+
+img.shapeEllipseWrap {
+	float: left;
+	clip-path: ellipse(40% 50%);
+	shape-outside: ellipse(45% 50%);
+}
+
+img.shapePolygon {
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+div.ObjectFit {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 730px;
+	position:absolute;
+	top: 18360px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+img.cover {
+	border-radius: 20px;
+	width: 200px; height: 200px;
+	margin:10px;
+	object-fit: cover;
+	position:absolute;
+	top: 50px; left: 50px;
+}
+
+img.contain {
+	border-radius: 20px;
+	width: 200px; height: 200px;
+	object-fit: contain;
+	position:absolute;
+	top: 50px; right: 50px;
+}
+
+img.fill {
+	border-radius: 20px;
+	width: 200px; height: 200px;
+	object-fit: fill;
+	position:absolute;
+	top: 280px; right: 50px;
+}
+
+img.none {
+	border-radius: 20px;
+	width: 200px; height: 200px;
+	object-fit: none;
+	position:absolute;
+	top: 280px; left: 50px;
+}
+
+img.scaleDown {
+	border-radius: 20px;
+	width: 200px; height: 200px;
+	object-fit: scale-down;
+	position:absolute;
+	top: 510px; left: 180px;
+}
+
+div.ObjectPosition {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 270px;
+	position:absolute;
+	top: 19140px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+img.position {
+	width: 90px; height: 200px;
+	object-fit: cover;
+	object-position: 0% 100%;
+	position:absolute;
+	top: 50px; left: 180px;
+}
+
+img.position2 {
+	width: 90px; height: 200px;
+	object-fit: cover;
+	object-position: 100% 100%;
+	position:absolute;
+	top: 50px; right: 180px;
+}
+
+div.Masking {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 350px;
+	position:absolute;
+	top: 19460px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+	background-image: url(img/grass.png);
+	background-repeat: repeat;
+}
+
+img.mask {
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.mask1 {
+	-webkit-mask-image: url(logo.png);
+	mask-image: url(logo.png);
+	mask-repeat: no-repeat;    
+}
+
+div.Button {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 700px;
+	position:absolute;
+	top: 19860px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+	background-image: url(img/grass.png);
+	background-repeat: repeat;
+}
+
+button.buttonRounded, button.buttonRounded1, button.buttonRounded2 {
+	background-color: Green;
+	border: none;
+	border-radius: 12px;
+	padding: 30px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 4px;
+}
+
+button.buttonCircle, button.buttonCircle1 {
+	background-color: Red;
+	border: none;
+	border-radius: 50%;
+	padding: 30px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 4px;
+}
+
+button.buttonBorder, button.buttonBorder1 {
+	border: 5px solid Yellow;
+	padding: 30px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 4px;
+}
+
+button {
+	transition-duration: 0.4s
+}
+
+button.buttonRounded1:hover {
+	background-color: DarkRed;
+	color: White;
+}
+
+button.buttonCircle1:hover {
+	background-color: LightGreen;
+}
+
+button.buttonBorder1:hover {
+	background-color: DarkBlue;
+	color: White;
+	border: 5px solid Black;
+}
+
+button.buttonShadow, button.buttonShadow1 {
+	border: 5px solid Orange;
+	padding: 30px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 4px;
+	transition-duration: 0.4s;
+}
+
+button.buttonShadow {
+	box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button.buttonShadow1:hover {
+	box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button.buttonRounded2 {
+	opacity: 0.6;
+	cursor: not-allowed;
+	width: 100%
+}
+
+button.buttonGroup, button.buttonGroup1 {
+	background-color: Green;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+button.buttonGroup {
+	float: left;
+}
+
+button.buttonGroup:hover, button.buttonGroup1:hover {
+	background-color: DarkGreen;
+}
+
+button.buttonGroup1 {
+	display: block;
+}
+
+div.Pagination {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; height: 650px;
+	position:absolute;
+	top: 20610px; left: 450px;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination .pagination2 a.a1 a{
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  font-size: 30pt;
+  text-decoration: none;
+}
+
+.pagination2 a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination2 a:hover:not(.active) {
+	background-color: #ddd;
+}
+
+.pagination3 a.active1 {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination3 a:hover:not(.active1) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.pagination4 a.a2 {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination4 a.a2:hover:not(.active) {
+	background-color: #ddd;
+}
+
+.pagination5 a.a3 {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination5 a.active2 {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination5 a.a3:hover:not(.active2) {
+	background-color: #ddd;
+}
+
+.pagination6 a.a4 {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination6 a.active3 {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination6 a.a4:hover:not(.active3) {
+	background-color: #ddd;
+}
+
+div.center {
+	text-align: center;
+}
